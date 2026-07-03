@@ -10,7 +10,7 @@ st.title("🛍️ Customer Segmentation using K-Means Clustering")
 st.write("Hello I am Kaushal")
 
 # Data Load
-df = pd.read_csv("CustomerData.csv")
+df = pd.read_csv("Customerdata.csv")
 # Data preview
 with st.expander("📂 Data Preview"):
     st.dataframe(df)
